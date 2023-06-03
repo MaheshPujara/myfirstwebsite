@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    text-align: center;
+    
+}
+h1{
+    font-size: 90px;
+    margin-top: 0;
+    font-family: 'Sacramento',cursive;
+    color: darkgrey;
+}
+p{
+    font-family: Garamond, serif;
+    font-size: 20px;
+    color: #40514E;
+}
+.top_container{
+    background-color: #8EC1D6;
+    position: relative;
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+.middle_container{}
+
+.bottom_container{
+    position: relative;
+    margin-top: 10%;
+    background-color: #66BFBF;
+    padding: 50px 0px 20px;
+}
+.top_cloud{
+    position: absolute;
+    right: 300px;
+    top: 20px;
+}
+.bottom_cloud{
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+.skills{
+    background-color: lightcoral;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+}
+.skill_image{
+    height: 100px;
+    width: 100px;
+}
+.skills_row{
+    position: absolute;
+}
+.coding{
+    width: 15%;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.contact{
+    width: 50%;
+    margin: auto;
+}
+hr{
+    border: dotted darkgray 6px;
+    border-bottom: none;
+    margin: 30px;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 0;
+    position: relative;
+    top: 50px;
+    left: 5px;
+    
+  }
+  
+  .btn:hover {
+    background: #fc3c5c;
+    background-image: -webkit-linear-gradient(top, #fc3c5c, #d93455);
+    background-image: -moz-linear-gradient(top, #fc3c5c, #d93455);
+    background-image: -ms-linear-gradient(top, #fc3c5c, #d93455);
+    background-image: -o-linear-gradient(top, #fc3c5c, #d93455);
+    background-image: linear-gradient(to bottom, #fc3c5c, #d93455);
+    text-decoration: none;
+  }
+  .contact-me{
+    width:100%;
+  }
+  a{
+    margin: 20px 30px;
+    color: #40514E;
+  }
